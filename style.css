@@ -1,0 +1,22 @@
+footer{
+    margin-top: 16px;
+}
+.fa-facebook-f, .fa-instagram{
+    font-size: 2em;
+}
+.menumarg{
+    margin-top: 16px;
+}
+
+.carousel{
+    height: 500px;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    
+}
+.mapitem{
+    object-fit: cover;
+    width: 100%;
+}

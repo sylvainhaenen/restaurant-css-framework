@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Saint-Porcin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <!--Ma barre de navigation-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Accueil</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="lacarte.html">La Carte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallerie.html">Gallerie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="apropos.html">À Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Carrousel à une image-->
+    <div class="container">
+      <div class="row">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="Images/Contact.jpg" alt="Images Gens en maillot de bain années 50">
+            </div>
+          </div>
+        </div>    
+      <!--Jumbotron-->
+      <div class="row">
+        <div class="bg-light p-5 rounded-lg m-3">
+          <h3 class="display-2">Le Saint-Porcin</h3>
+          <hr class="my-4">
+          <h4>Contact :</h4>  
+        </div>
+      </div> 
+    </div>   
+  </header>
+  <main>
+    <!--Section Formulaire de Contact-->  
+      <form class="p-3 border bg-light">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Votre adresse email :</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">C'est à quel propos ?</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Réservations</option>
+            <option>Critique</option>
+            <option>Postuler</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Votre message :</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    </main>
+    <!--Footer-->    
+    <footer class="bg-light text-lg-start">
+      <div class="text-center p-3">
+        <a href=""><i class="fa fa-facebook-f"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+      </div>
+    </footer>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
